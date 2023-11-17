@@ -1,0 +1,38 @@
+les Unities en CSS :
+
+Px : est absolute est n'est pas responsive
+VW : est relative donc responsive. Ex 200vw sera sur tout les ecran le meme width
+Vh : est comme vw mais pour les height 
+% : est accorde selon le parent. Donc c'est responcive si le parent est responsive
+
+
+GIT and GiHub :
+
+-Quelque commande :
+
+cd name of dossier = aller dans tel dossier
+pwd = checker dans quel dossier je suis
+ls = liste les dossier dans le folder
+mkdir "name of folder" = cree un dossier
+touch index.html = creer un fichier
+git log = Permet de retrouver les commit i did before
+
+- Etape pour enregister son travaille sur son ordinateur:
+git init 
+git add . 
+git commit-m "commentaire"
+
+- Retourner vers un commit qu'on a fais et le modifier
+git log 
+git revert and the id of the commit
+
+- Deposer son code sur GiHub :
+Gliquer sur new
+Dans repository name : le nom du repository qu'on veut
+Create repository
+Git init (si on la pas deja fais avant)
+git add . 
+git commit-m "commentaire"
+git branch -M main
+git remote add origin plus le lien qu'ils donnent
+git push -u origin main
