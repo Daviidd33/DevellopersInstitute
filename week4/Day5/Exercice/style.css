@@ -1,0 +1,8 @@
+body {
+    background-image: url("./circuit-pattern.png");
+}
+
+.width-20 {
+    max-width: 50vw;
+    min-width: 20vw;
+}
